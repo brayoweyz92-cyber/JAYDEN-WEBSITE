@@ -1,0 +1,278 @@
+•{
+  Margin: 0;
+  Padding: 0;
+  Box-sizing: border-box;
+  Font-family: 'Poppins', sans-serif;
+}
+
+Body {
+  background-image:url(abstract-wave-line-pattern-on-dark-blue-background-futuristic-technology-concept-suit-for-banner-poster-cover-brochure-flyer-website-free-vector.jpg);
+  Color: #333;
+}
+table{
+  background-color:rgb(87, 8, 8);
+  border-color: #000;
+  color: #a8d0eb;
+
+}
+th{
+  color:#a8d0eb;
+}
+tr{
+  text-align: center;
+  color: #a8d0eb;
+}
+.about{
+  color: #a8d0eb;
+}
+
+
+.head{
+  color: hwb(61 0% 0%);
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.logo p{
+  text-shadow: 3px 3px 3px yellow;
+  color: rgb(231, 17, 46);
+  font-size: 70px;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: hsl(221, 58%, 50%);
+  background-size: 5px;
+  border-radius:45px 25px;
+  margin-top: 0px;
+  display:block;
+  position: relative;
+}
+.logo span{
+  color: rgb(56, 255, 6);
+  font-weight: bold;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.logo:hover{
+  transform:scale(1.1);
+  opacity: .67;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500px;
+  margin-right: 5px;
+  transition: color 0.3s;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0a3d62;
+  padding: 15px 30px;
+  color: white;}
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.nav-links li a:hover{
+  color: #f6b93b;
+}
+.menu-icon{
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+@media(max-width:768px){
+  .nav-links{
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background: #0a3d62;
+  flex-direction: column;
+  width: 200px;
+  text-align: right;
+  display: none;
+  }
+.nav-links.active{
+  display: flex;
+  }
+  .menu-icon{
+  display: block;
+  }
+}
+
+.hero {
+  Background: url('https://via.placeholder.com/1200x600') center/cover no-repeat;
+  Color: #fff;
+  Text-align: center;
+  Padding: 120px 20px;
+}
+
+.hero-content {
+  Background: rgba(0, 0, 0, 0.5);
+  Display: inline-block;
+  Padding: 30px;
+  Border-radius: 10px;
+}
+
+.hero button {
+  Margin-top: 15px;
+  Padding: 10px 20px;
+  Border: none;
+  Background: #f1c40f;
+  Color: #000;
+  Font-weight: bold;
+  Cursor: pointer;
+  Border-radius: 5px;
+}
+
+.hero button:hover {
+  Background: #d4ac0d;
+}
+.why_us{
+  font-weight: bold;
+  margin-right: 250px;
+  background: #063f77;
+  text-align: center;
+  border: #063f77;
+  color: #d4c00d;
+  border-radius: 5px;
+}
+
+Section {
+  Padding: 60px 20px;
+  Text-align: center;
+}
+
+.room-container {
+  Display: flex;
+  Flex-wrap: wrap;
+  Justify-content: center;
+  Gap: 20px;
+}
+
+.room-card {
+  Background: #fff;
+  Padding: 15px;
+  Border-radius: 10px;
+  Width: 300px;
+  Box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.room-card img {
+  Width: 100%;
+  Border-radius: 10px;
+}
+
+.gallery-grid {
+  Display: grid;
+  Grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  Gap: 15px;
+}
+
+.gallery-grid img {
+  Width: 100%;
+  Border-radius: 10px;
+}
+
+.contact form {
+  Max-width: 400px;
+  Margin: 20px auto;
+  Display: flex;
+  Flex-direction: column;
+}
+
+.contact input, .contact textarea {
+  Margin: 8px 0;
+  Padding: 10px;
+  Border-radius: 5px;
+  Border: 1px solid #ccc;
+}
+
+.contact button {
+  Padding: 10px;
+  Border: none;
+  Background: #2c3e50;
+  Color: white;
+  Border-radius: 5px;
+  Cursor: pointer;
+}
+
+.contact button:hover {
+  Background: #34495e;
+}
+
+footer {
+  Background: #063f77;
+  background-size: 100%;
+  Color: white;
+  Text-align: center;
+  position:sticky;
+  Padding: 15px;
+}
+.contact{
+  color: #ccc;
+}
+#contact{
+  color: #84b1df;
+}
+
+
+.slides img{
+  width: 100%;
+  border-radius: 15px;
+}
+
+.gallery{
+  color: #84b1df;
+}
+footer{
+  color: white;
+  background-color: #063f77;
+  position: sticky;
+}.slider{
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.slides img{
+  width: 100%;
+  height: auto;
+  display: none;
+}
+.slides img.active{
+  display: block;
+}
+#prev,#next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  margin: -20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  user-select: none;
+}
+#prev{
+  left: 25px;
+}
+#next{
+  right: 25px;
+}
+.click:hover{
+color: #d4ac0d;
+opacity: (.6rem);
+}

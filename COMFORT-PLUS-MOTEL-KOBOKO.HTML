@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="60">
+  <title>Comfort Plus Motel Koboko</title>
+  <link rel="stylesheet" href="c.css">
+  <style>
+  
+  </style>
+</head>
+<body class="main">
+
+  <!--Navigation Bar -->
+  <marquee direction="rigt" class="head"><h1>COMFORT PLUS MOTEL KOBOKO</h1></marquee>
+
+
+    
+    <nav class="navbar">
+      <div class="logo"><p>C<span>plus</span>M<span>K</span></p></div>
+      <ul class="nav-links" id="navlinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="file:///C:/Users/hp/Desktop/HCJ/about.html">About</a></li>
+        <li><a href="file:///C:/Users/hp/Desktop/HCJ/rooms.html">Rooms</a></li>
+        <li><a href="file:///C:/Users/hp/Desktop/HCJ/gallery.html">Gallery</a></li>
+        <li><a href="file:///C:/Users/hp/Desktop/HCJ/CONTACT%20US.html">Contact</a></li>
+      </ul>
+      <div class="menu-icon" id="menulcon">&#9776;</div>
+    </nav>
+
+
+  <!--Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to Comfort Plus Motel, Koboko</h2>
+      <p>Your home of comfort and luxury in the heart of West Nile.</p>
+      <p>Koboko's finest choice for travellers, visitors and the local people.</p>
+      <p>We offer clean, affordable, and comfortable rooms with free Wi-Fi and secure parking as the name says "comfort plus motel</p>
+      <button onclick="scrollToSection('rooms')">Explore Rooms & foods</button>
+    </div>
+
+    <!--image slider section-->
+    <div class="slider">
+      <div class="slides">
+        <img  src="hero-meetings-210625a.jpg" alt="CONFERENCE HALL" class="active">
+        <img  src="9ba4ed75.jpg" alt="Delux rooms" >
+        <img src="Dantty-25391548-2023-05-13.jpg" alt="">
+        <img  src="Local-Foods-Blog.webp" alt="local foods" >
+        <img  src="Dantty-25391548-2023-05-13.jpg" alt="internatiol food" >
+        <img  src="41e57122.jpg" alt="room" >
+        <button class="click" id="prev" onclick="plusSlides(-1)">&lt;</button>
+        <button class="click" id="next" onclick="plusSlides(1)">&gt;</button>
+    </div>
+<br>
+<input type="button" name="top" value="TOP PAGE" href="file:///C:/Users/hp/Desktop/HCJ/COMFORT-PLUS-MOTEL-KOBOKO.HTML">
+<br>
+<br>
+  <!--Footer -->
+  <footer>
+    <p>&copy; 2025 Comfort Plus Motel Koboko | Designed by <i>kupajo brian</i></p>
+  </footer>
+
+
+  <script>
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('.slides img');
+
+    function plusSlides(n){
+      slides[slideIndex].classList.remove('active');
+      slideIndex = (slideIndex + n + slides.length) % slides.length;
+      slides[slideIndex].classList.add('active');
+    }
+
+
+
+
+    const menulcon = document.getElementById('menulcon');
+    const navlinks = document.getElementById('navlinks');
+    menulcon.onclick = () => navlinks.classList.toggle('active');
+  </script>
+
+
+</body>
+</html>
+

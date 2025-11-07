@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cc.css">
+    <title>cc</title>
+</head>
+<body>
+    <nav class="navbar">
+       <div class="logo">C<span>pM </span></div>
+      <ul class="nav-links" id="navlinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="HTTPS:///C:/Users/hp/Desktop/HCJ/about.html">About</a></li>
+        <li><a href="HTTPS:///C:/Users/hp/Desktop/HCJ/rooms.html">Rooms</a></li>
+        <li><a href="HTTPS:///C:/Users/hp/Desktop/HCJ/gallery.html">Gallery</a></li>
+        <li><a href="HTTPS:///C:/Users/hp/Desktop/HCJ/CONTACT%20US.html">Contact</a></li>
+      </ul>
+      <div class="menu-icon" id="menulcon">&#9776;</div>
+    </nav>
+
+
+
+     <script>
+    const menulcon = document.getElementById('menulcon');
+    const navlinks = document.getElementById('navlinks');
+    menulcon.onclick = () => navlinks.classList.toggle('active');
+  </script>
+</body>
+</html>
